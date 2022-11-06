@@ -65,8 +65,10 @@ async function getPStats(matchId){
     await browser.close();
     return stats
 };
-
-app.get('/data/:matchId',async (req,res)=>{
+app.get('/',async (req,res)=>{
+    res.send('Welcome to the basketball player stats api, by dreasa')
+},
+app.get('/:matchId',async (req,res)=>{
     const { matchId } = req.params;
     try {
         const response = await getPStats(matchId);
