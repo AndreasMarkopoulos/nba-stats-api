@@ -17,7 +17,6 @@ function getEveryNth(arr, start) {
     for (let i = start; i < arr.length; i += 22) {
         result.push(arr[i]);
     }
-
     return result;
 }
 
@@ -71,11 +70,14 @@ app.get('/',async (req,res)=>{
 });
 app.get('/:matchId',async (req,res)=>{
     const { matchId } = req.params;
+    let response;
     try {
-        const response = await getPStats(matchId);
-        res.json(response)
+        response = await getPStats(matchId);
     }
     catch(error){
         res.json(error)
+    }
+    finally {
+        res.json(response)
     }
 });
