@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.listen(PORT,() => console.log(`server running on ${PORT}`));
 
-let stats;
+
 
 function getEveryNth(arr, start) {
     const result = [];
@@ -22,6 +22,7 @@ function getEveryNth(arr, start) {
 }
 
 async function getPStats(matchId){
+    let stats;
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     const url = `https://www.flashscore.com/match/${matchId}/#/match-summary/player-statistics/0`
@@ -67,7 +68,7 @@ async function getPStats(matchId){
 };
 app.get('/',async (req,res)=>{
     res.send('Welcome to the basketball player stats api, by dreasa')
-},
+});
 app.get('/:matchId',async (req,res)=>{
     const { matchId } = req.params;
     try {
