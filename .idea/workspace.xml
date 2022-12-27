@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cd8a635-a7d3-4a6c-ad7c-5efe962454de" name="Changes" comment="">
+    <list default="true" id="8cd8a635-a7d3-4a6c-ad7c-5efe962454de" name="Changes" comment="v1.02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,25 +24,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amarkopoulos/Desktop/New folder/playernots&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="PlayerStats-api" />
+      <module name="stats" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="PlayerStats-api" />
+      <module name="stats" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,8 +71,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667731135528</updated>
-      <workItem from="1667731136821" duration="13945000" />
+      <workItem from="1667731136821" duration="17936000" />
+      <workItem from="1667848701426" duration="2069000" />
+      <workItem from="1668102284115" duration="607000" />
+      <workItem from="1668712408065" duration="2215000" />
+      <workItem from="1668762601444" duration="16000" />
+      <workItem from="1669226882375" duration="7705000" />
+      <workItem from="1669362760083" duration="98000" />
+      <workItem from="1669375305736" duration="271000" />
+      <workItem from="1669376394676" duration="7270000" />
+      <workItem from="1669476640801" duration="13000" />
+      <workItem from="1669591108182" duration="3489000" />
+      <workItem from="1671134683725" duration="11240000" />
+      <workItem from="1671323082428" duration="1674000" />
+      <workItem from="1671573666082" duration="1272000" />
+      <workItem from="1671610061505" duration="209000" />
+      <workItem from="1672146983881" duration="19105000" />
     </task>
+    <task id="LOCAL-00001" summary="v1.02">
+      <created>1667773136824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667773136824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1.02" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.02" />
   </component>
 </project>
