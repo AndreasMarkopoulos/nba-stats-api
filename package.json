@@ -15,7 +15,6 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "puppeteer": "^19.2.2",
-    "redis-server": "^1.2.2",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
   }
